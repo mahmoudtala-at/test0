@@ -440,14 +440,10 @@ a {
     }
 
     .card {
+        margin-bottom: 1.5rem;
         width: 75%;
-        padding-bottom: 1rem;
     }
 
-    .cards {
-        padding-bottom: 1rem;
-        width: 60%;
-    }
 }
 
 /*  *********pricing ************* */
@@ -515,8 +511,9 @@ button {
 
 @media (max-width:1224px) {
     .cards {
-        width: 80%;
         padding: 25px;
+        margin-bottom: 2rem;
+        width: 60%;
     }
 
     button {
