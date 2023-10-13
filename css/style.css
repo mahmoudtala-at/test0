@@ -62,6 +62,13 @@ body {
     padding-bottom: 5rem;
 }
 
+@media (max-width:764px) {
+    .first_section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
 .first_section h3 {
     width: 35%;
     margin: auto;
@@ -118,7 +125,7 @@ nav a {
     .intro_mess {
         height: 150px;
     }
-    
+
 }
 
 .text h1 {
@@ -179,6 +186,13 @@ nav a {
 
 }
 
+@media (max-width:764px) {
+    .intro_section .intro {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
 .intro h2 {
     width: 30%;
     margin: auto;
@@ -201,6 +215,12 @@ nav a {
 
     text-align: center;
     padding: 5rem;
+}
+
+@media (max-width:764px) {
+    .intro_section .column {
+        padding: 5rem;
+    }
 }
 
 .intro_section .column i {
@@ -242,11 +262,22 @@ nav a {
     padding: 5rem 0;
 }
 
+@media (max-width:764px) {
+    .what_you_need .container {
+        padding: 2rem 0;
+    }
+}
 
 .what_you_need .column {
 
     text-align: center;
     padding: 5rem;
+}
+
+@media (max-width:764px) {
+    .what_you_need .column {
+        padding: 2rem;
+    }
 }
 
 @media (max-width:1024px) {
@@ -260,7 +291,12 @@ nav a {
     padding-bottom: 5rem;
 }
 
+@media (max-width:764px) {
+    .row1 {
 
+        padding-bottom: 2rem;
+    }
+}
 
 
 .social_media .cap {
@@ -318,6 +354,12 @@ nav a {
     padding-bottom: 5rem;
 }
 
+@media (max-width:764px) {
+    .news>.container {
+        padding-bottom: 2rem;
+    }
+}
+
 .news h2 {
     font-weight: 400;
 }
@@ -368,6 +410,12 @@ img {
     margin: auto;
 }
 
+@media (max-width:764px) {
+    .work p {
+        padding-bottom: 2rem;
+    }
+}
+
 a {
     padding-left: 15px;
     text-decoration: none;
@@ -384,11 +432,23 @@ a {
     padding-bottom: 5rem;
 }
 
+@media (max-width:764px) {
+    .flex_center {
+        padding-bottom: 2rem;
+    }
+}
+
 /*  *********pricing ************* */
 
 .pricing>.container {
     background-color: #dfdfdf;
     padding-bottom: 5rem;
+}
+@media (max-width:764px) {
+    .pricing>.container {
+
+        padding-bottom: 2rem;
+    }
 }
 
 .cards {
