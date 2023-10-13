@@ -33,6 +33,7 @@ body {
 }
 
 .flex_center {
+    padding: 0 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -351,12 +352,13 @@ nav a {
 /* *****************Start of news section**********************/
 .news>.container {
     background-color: #dfdfdf;
-    padding-bottom: 5rem;
+    padding: 0 1rem 5rem;
 }
 
 @media (max-width:764px) {
     .news>.container {
         padding-bottom: 2rem;
+
     }
 }
 
@@ -392,7 +394,7 @@ img {
 @media (max-width:1224px) {
     .row.flex_left {
         flex-direction: column;
-        gap: 20px;
+        gap: 0px;
         align-items: center;
     }
 
@@ -436,6 +438,14 @@ a {
     .flex_center {
         padding-bottom: 2rem;
     }
+
+    .card {
+        width: 75%;
+    }
+
+    .cards {
+        width: 75%;
+    }
 }
 
 /*  *********pricing ************* */
@@ -444,6 +454,7 @@ a {
     background-color: #dfdfdf;
     padding-bottom: 5rem;
 }
+
 @media (max-width:764px) {
     .pricing>.container {
 
