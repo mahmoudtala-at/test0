@@ -114,6 +114,13 @@ nav a {
     text-align: center;
 }
 
+@media (max-width:764px) {
+    .intro_mess {
+        height: 150px;
+    }
+    
+}
+
 .text h1 {
     font-weight: 400;
     font-size: 48px;
