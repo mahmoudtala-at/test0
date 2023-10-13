@@ -441,10 +441,12 @@ a {
 
     .card {
         width: 75%;
+        padding-bottom: 1rem;
     }
 
     .cards {
-        width: 75%;
+        padding-bottom: 1rem;
+        width: 60%;
     }
 }
 
